@@ -1,0 +1,15 @@
+projects:
+  messaga2:
+    schemaPath: amplify/backend/api/messaga2/build/schema.graphql
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: flow
+        generatedFileName: src/API.js
+        docsFilePath: src/graphql
+        region: us-east-2
+        apiId: null
+        maxDepth: 2

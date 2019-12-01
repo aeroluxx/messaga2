@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "messaga2",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authmessaga249e0feb0",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
