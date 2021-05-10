@@ -17,7 +17,7 @@
     "aws-amplify": "^1.2.4",
     "aws-amplify-react-hooks": "^1.0.5",
     "aws-amplify-react-native": "^2.2.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-floating-label": "^0.2.3",
